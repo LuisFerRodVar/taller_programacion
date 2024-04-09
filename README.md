@@ -18,3 +18,10 @@ Hacer una función que se llame calcularPotencia, debe recibir dos enteros, el p
 **Ejemplo:**
 calcularPotencia(2,4) => 16
 calcularPotencia(5,2) => 25
+***
+## Ejercicio 5
+Hacer una función que se llame sumarDigitos, debe recibir un número entero y retornar la suma de los dígitos de ese número.
+**Ejemplo:**
+sumarDigitos(124) => 7
+sumarDigitos(572) => 14
+***
