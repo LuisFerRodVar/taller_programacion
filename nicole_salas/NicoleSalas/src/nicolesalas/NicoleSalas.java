@@ -18,7 +18,7 @@ public class NicoleSalas {
             return i;
         }
        
-        return contarDigitos(num/10, i++);
+        return contarDigitos(num/10, i+1);
     }
     public static int contarDigitosAux(int num){
       return contarDigitos(num, 0);
