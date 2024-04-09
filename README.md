@@ -25,3 +25,8 @@ Hacer una función que se llame sumarDigitos, debe recibir un número entero y r
 sumarDigitos(124) => 7
 sumarDigitos(572) => 14
 ***
+## Ejercicio 6
+Hacer una función que se llame invertirNumero, debe recibir un número entero y retornarlo al revés.
+**Ejemplo:**
+invertirNumero(123) => 321
+invertirNumero(1024) => 4201
