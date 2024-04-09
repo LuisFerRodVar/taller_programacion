@@ -14,11 +14,14 @@ public class NicoleSalas {
 
     public static int contarDigitos(int num, int i){
         
-        if (i == 1 ) {
-            return 1;
+        if (num == 0 ) {
+            return i;
         }
-        
+       
         return contarDigitos(num/10, i++);
+    }
+    public static int contarDigitosAux(int num){
+      return contarDigitos(num, 0);
     }
     
     public static void main(String[] args) {
