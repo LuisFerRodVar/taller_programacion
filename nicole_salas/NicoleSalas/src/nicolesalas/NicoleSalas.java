@@ -18,15 +18,30 @@ public class NicoleSalas {
             return i;
         }
        
-        return contarDigitos(num/10, i++);
+        return contarDigitos(num/10, i+1);
     }
     public static int contarDigitosAux(int num){
       return contarDigitos(num, 0);
     }
     
+    
+    
+    
+    
+    
+    public static int calcularPotencia(int base, int expo){
+        
+        if (expo == 0) {
+            return base;
+        }
+        
+        return base * calcularPotencia(base, expo - 1);
+    }
+    
     public static void main(String[] args) {
 
-        System.out.println(contarDigitos(1223, 0));
+        // System.out.println(contarDigitos(1223, 0));
+        System.out.println(calcularPotencia(2, 2));
     }
     
 }
