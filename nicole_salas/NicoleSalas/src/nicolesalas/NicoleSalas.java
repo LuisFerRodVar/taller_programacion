@@ -9,12 +9,21 @@ package nicolesalas;
  * @author nicos
  */
 public class NicoleSalas {
+    
+    // 3234
 
-    /**
-     * @param args the command line arguments
-     */
+    public static int contarDigitos(int num, int i){
+        
+        if (i == 1 ) {
+            return 1;
+        }
+        
+        return contarDigitos(num/10, i++);
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        System.out.println(contarDigitos(1223, 0));
     }
     
 }
