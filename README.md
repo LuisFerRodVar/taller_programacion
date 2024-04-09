@@ -13,3 +13,8 @@ Hacer una función que se llame fibonacci la función debe recibir un número en
 fibonacci(5) => 5
 fibonacci(7) => 13
 
+## Ejercicio 4
+Hacer una función que se llame calcularPotencia, debe recibir dos enteros, el primer parámetro debe ser la base de la potencia y el segundo debe ser el exponente.
+**Ejemplo:**
+calcularPotencia(2,4) => 16
+calcularPotencia(5,2) => 25
