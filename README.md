@@ -122,3 +122,63 @@ Crear una función llamada esAmigo, que reciba dos números enteros positivos a 
 esAmigo(220, 284) => true (220 = 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110, 284 = 1 + 2 + 4 + 71 + 142)
 esAmigo(1184, 1210) => true (1184 = 1 + 2 + 4 + 8 + 16 + 74 + 148 + 296 + 592, 1210 = 1 + 2 + 5 + 10 + 11 + 22 + 55 + 110 + 121 + 242 + 605)
 ***
+
+## Ejercicio 1
+Crear una función llamada contar_vocales que tome una cadena de texto y devuelva la cantidad de vocales que contiene.
+**Ejemplo:**
+contar_vocales("Hola mundo") => 4
+contar_vocales("Python es genial") => 5
+***
+## Ejercicio 2
+Crear una función llamada invertir_cadena que tome una cadena de texto y devuelva la misma cadena pero invertida.
+Ejemplo:
+invertir_cadena("Hola") => "aloH"
+invertir_cadena("Algo") => "oglA"
+***
+## Ejercicio 3
+Crear una función llamada contar_palabras que tome una cadena de texto y devuelva la cantidad de palabras que contiene.
+**Ejemplo:**
+contar_palabras("Hola mundo") => 2
+contar_palabras("Programar es bonito") => 3
+***
+## Ejercicio 4
+Crear una función llamada es_palindromo que tome una cadena de texto y devuelva verdadero si es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda) y falso en caso contrario.
+**Ejemplo:**
+es_palindromo("anitalavalatina") => True
+es_palindromo("prueba") => False
+***
+## Ejercicio 5
+Crear una función llamada eliminar_duplicados que tome una cadena de texto y devuelva otra cadena sin caracteres duplicados.
+Ejemplo:
+eliminar_duplicados("abracadabra") => "abrcd"
+eliminar_duplicados("python") => "python"
+***
+## Ejercicio 6
+Crear una función llamada intercalar_cadenas que tome dos cadenas de texto y devuelva una nueva cadena con los caracteres de ambas cadenas intercalados.
+**Ejemplo:**
+intercalar_cadenas("abc", "123") => "a1b2c3"
+intercalar_cadenas("Prueba", "es") => "Persueba"
+***
+## Ejercicio 7
+Crear una función llamada capitalizar_palabras que tome una cadena de texto y devuelva la misma cadena con la primera letra de cada palabra en mayúscula.
+**Ejemplo:**
+capitalizar_palabras("python es genial") => "Python Es Genial"
+capitalizar_palabras("hola mundo") => "Hola Mundo"
+***
+## Ejercicio 8
+Crear una función llamada reemplazar_caracter que tome una cadena de texto, un carácter a reemplazar y otro carácter de reemplazo, y devuelva la cadena con todas las apariciones del primer carácter reemplazadas por el segundo.
+**Ejemplo:**
+reemplazar_caracter("abracadabra", "a", "x") => "xbrxcxdxbrx"
+reemplazar_caracter("hola", "o", "0") => "h0la"
+***
+## Ejercicio 9
+Crear una función llamada contar_substr que tome una cadena de texto y una subcadena, y devuelva la cantidad de veces que la subcadena aparece en la cadena.
+**Ejemplo:**
+contar_substr("abracadabra", "abra") => 2
+contar_substr("programar es tuanis", "es ") => 1
+***
+## Ejercicio 10
+Crear una función llamada es_anagrama que tome dos cadenas de texto y devuelva verdadero si una es un anagrama de la otra (es decir, si tienen las mismas letras en distinto orden), y falso en caso contrario.
+**Ejemplo:**
+es_anagrama("roma", "amor") => True
+es_anagrama("python", "typhon") => False
