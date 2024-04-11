@@ -1,7 +1,14 @@
 # Taller de programación
 ### *09/04/2024*
 ## Recursividad de pila
+### Ejercicio 1
+Hacer una función que se llame factorial, debe recibir un número entero, la función debe de retornar el resultado del factorial de ese número.
 
+**Ejemplo:**
+factorial(5)  => 120
+factorial(4) => 24
+
+***
 ### Ejercicio 2
 Hacer una función que se llame contarDigitos la función debe de recibir un número entero positivo y debe retornar la cantidad de dígitos de ese número.
 
@@ -9,6 +16,7 @@ Hacer una función que se llame contarDigitos la función debe de recibir un nú
 contarDigitos(123) => 3
 contarDigitos(1024) => 4
 
+***
 ### Ejercicio 3
 Hacer una función que se llame fibonacci la función debe recibir un número entero y debe de retornar un entero con el número de la secuencia de fibonacci en la posición del número indicado.
 
